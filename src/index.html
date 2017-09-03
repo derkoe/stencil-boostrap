@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stencil Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <script src="build/bootstrap.js"></script>
+</head>
+
+<body>
+  <section class="container-fluid">
+    <h3>Progress Bar</h3>
+    Plain:
+    <bs-progress-bar value="20"></bs-progress-bar>
+    Background:
+    <bs-progress-bar value="40" bg="success"></bs-progress-bar>
+    Striped:
+    <bs-progress-bar value="60" bg="warning" striped></bs-progress-bar>
+  </section>
+  <section class="container-fluid">
+    <h3>Dropdown Button</h3>
+    <bs-dropdown-button>Choose action</bs-dropdown-button>
+  </section>
+</body>
+
+</html>
