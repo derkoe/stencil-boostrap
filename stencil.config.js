@@ -1,11 +1,12 @@
 exports.config = {
-	bundles: [
-		{ components: ['bs-dropdown-button', 'bs-progress-bar'] }
-	],
-	namespace: 'bootstrap'
+  bundles: [
+    { components: ['dropdown-button', 'dropdown-item', 'dropdown-divider'] },
+    { components: ['progress-bar'] }
+  ],
+  namespace: 'bootstrap'
 };
 
 exports.devServer = {
-	root: 'www',
-	watchGlob: '**/**'
+  root: 'www',
+  watchGlob: '**/**'
 }

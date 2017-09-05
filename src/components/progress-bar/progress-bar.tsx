@@ -2,7 +2,7 @@ import { Component, Prop } from '@stencil/core';
 import { colors } from '../../utils';
 
 @Component({
-  tag: 'bs-progress-bar',
+  tag: 'progress-bar',
 })
 export class ProgressBar {
 

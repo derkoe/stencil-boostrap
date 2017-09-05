@@ -12,17 +12,24 @@
 
 <body>
   <section class="container-fluid">
-    <h3>Progress Bar</h3>
-    Plain:
-    <bs-progress-bar value="20"></bs-progress-bar>
-    Background:
-    <bs-progress-bar value="40" bg="success"></bs-progress-bar>
-    Striped:
-    <bs-progress-bar value="60" bg="warning" striped></bs-progress-bar>
-  </section>
-  <section class="container-fluid">
-    <h3>Dropdown Button</h3>
-    <bs-dropdown-button>Choose action</bs-dropdown-button>
+    <p>
+      <h3>Progress Bar</h3>
+      <h4>Plain</h4>
+      <progress-bar value="20"></progress-bar>
+      <h4>Background</h4>
+      <progress-bar value="40" bg="success"></progress-bar>
+      <h4>Striped</h4>
+      <progress-bar value="60" bg="warning" striped></progress-bar>
+    </p>
+    <p>
+      <h3>Dropdown Button</h3>
+      <dropdown-button label="Choose action">
+        <dropdown-item>Action</dropdown-item>
+        <dropdown-item>Another action</dropdown-item>
+        <dropdown-divider></dropdown-divider>
+        <dropdown-item>Something else here</dropdown-item>
+      </dropdown-button>
+    </p>
   </section>
 </body>
 
